@@ -1,0 +1,15 @@
+/* À compléter : une présentation simple, lisible et utilisable. */
+.liste {
+  display: grid;
+  /* Crée 3 colonnes de largeur égale */
+  grid-template-columns: repeat(3, 1fr);
+  /* Espacement optionnel entre les divs */
+  gap: 10px;
+}
+
+.produit-card {
+  /* Optionnel : styles pour la visibilité */
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}   

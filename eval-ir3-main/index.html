@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini-boutique</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <header class="bg-red-400 fixed w-full">
+    <nav class="flex items-center justify-between w-4/5 m-auto h-20">
+      <div id="logo">LOGO</div>
+      <ul class="flex items-center gap-3 text-white">
+        <li>Home</li>
+        <li><button class="produit">Products</button></li>
+        <li>Team</li>
+        <li class="panier">
+          <button class="panierS">Panier</button>
+          <p class="counter"></p>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <h1>CLiquer sur le Menu Produit</h1>
+  <div class="liste"></div>
+  <div class="sidebar fixed text-white w-[0px] duration-300 h-screen bg-red-400 absolute"></div>
+  
+
+  <h1 class="panierP"> Menu Panier</h1>
+  <main>
+    <div class="products flex items-center, justify-center gap-3 flex-wrap"></div>
+  </main>
+  <script src="script.js" ></script>
+</body>
+</html>
